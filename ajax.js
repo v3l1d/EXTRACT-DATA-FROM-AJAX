@@ -2,7 +2,7 @@
   $.ajax{
     method:"<methodtype>",
     url:"<urltype",
-    async:false //very importanto to execute the code sequentially and avoid to get undefined values
+    async:false //very important to execute the code sequentially and avoid to get undefined values
     success:function(){
       var data; //local var you want to extract
       useReturnData(data);
