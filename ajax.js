@@ -1,7 +1,7 @@
 
   $.ajax{
     method:"<methodtype>",
-    url:"<urltype",
+    url:"<yoururl>",
     async:false //very important to execute the code sequentially and avoid to get undefined values
     success:function(){
       var data; //local var you want to extract
